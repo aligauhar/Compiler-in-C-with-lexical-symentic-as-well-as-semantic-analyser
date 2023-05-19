@@ -1,0 +1,30 @@
+-> function signature
+void ~addFunction (NUM ~num1, NUM ~num2) ;
+
+->  main function
+main void begin () 
+{
+~addFunction ( 5, 10 ) ;
+NUM ~X;
+NUM ~X;
+}
+
+-> function definition
+func void ~addFunction (NUM ~num1, NUM ~num2) {
+in_put <- ~D ;
+NUM ~Z = ( ~G + ~H );
+NUM ~Z = 5;
+out_put <- "Addition Done" ;
+-> since the output can only be string therefore type casting
+-> needed but here the typ casting functionality has not been 
+-> embedded therefore only printing the signal 
+}
+
+func void ~subFunction (NUM ~num3, NUM ~num4) {
+in_put <- ~Q ;
+NUM ~L = ( ~G + ~P );
+out_put <- "Addition Done" ;
+-> since the output can only be string therefore type casting
+-> needed but here the typ casting functionality has not been 
+-> embedded therefore only printing the signal 
+}
